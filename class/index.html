@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="CarCollection.html">
+</head>
+<body>
+    <h1> <strong>WELCOM TO BMW CAR SHOWROOM!</strong> </h1>
+    <h2>See What is new in our car </h2>
+    <h3>About BMW Car</h3>
+    <p>BMW, or <b> Bayerische Motoren Werke,</b> is a German automobile manufacturer renowned for producing luxury vehicles that combine performance, innovation, and elegant design. <mark>Founded in 1916</mark> , the company has built a legacy centered around its slogan <i>"The Ultimate Driving Machine,"</i>  reflecting its focus on precision engineering and driving pleasure. BMW's lineup ranges from compact sedans and SUVs to <ins> high-performance M series models</ins>  and increasingly popular electric vehicles under the "i" sub-brand. With a strong emphasis on cutting-edge technology, safety, and sustainability, BMW continues to be a symbol of prestige and automotive excellence worldwide. price is only <del>2,20,0000</del> 1,50,0000
+    </p> <br>
+    <h2>click below car image to go <strong>Car Collection</strong> </h2>
+    <a href="CarCollection.html" target="_blank"><img src="picture/car.jpg" alt="car"></a>
+    <img src="picture/bmw.jpg" alt="BMW Car">
+    <hr>
+    <form action="">
+        <fieldset> <!--creat box like structure-->
+            <legend>Form</legend>
+            <label for="name">Enter the name</label>
+            <input type="text" placeholder="Type the name"> <br>
+            <label for="age">Enter the age</label>
+            <input type="text" placeholder="Enter the age"><br>
+
+            <!--radio and check box-->
+            <label for="gender">male</label><input type="radio">
+            <label for="gender">female</label><input type="radio"><br>
+
+            <label for="check">Under 18</label><input type="checkbox">
+            <label for="check">Above 18</label><input type="checkbox"><br>
+
+            <!--selecting-->
+            <select name="course">
+            <OPTgroup label="Front-End">
+                <option value="course">HTML</option>
+                <option value="course">CSS</option>
+                <option value="course">JS</option>
+                <option value="course">REACT</option>
+            </OPTgroup>
+            <OPTgroup label="Back-End"> 
+                <option value="course">python</option>
+                <option value="course">database</option>
+                <option value="course">Django</option>
+            </OPTgroup>
+            </select><br>
+
+            <!--another way to select (datalist)-->
+            <label>Select Country</label>
+            <input type="text" list="content">
+            <datalist id="content">
+                <option>USA</option>
+                <option>UK</option>
+                <option>Australia</option>
+                <option>India</option>
+            </datalist><br><br>
+            <button>Submit</button>
+
+
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
